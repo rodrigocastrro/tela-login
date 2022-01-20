@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.conteudo-container {
+  height: 680px;
+  width: 960px;
+  display: flex;
+  padding: 40px;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.dados-login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dados-login input {
+  font-family: Poppins;
+  font-size: 16px;
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: none;
+  background: #e6e6e6;
+  color: #666666;
+  outline: 0;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.botao {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 120px;
+  border-radius: 25px;
+  background: #57b846;
+  color: #fff;
+  border: none;
+}
+
+.botao:hover {
+  background: #212529;
+}
+
+a {
+  font-family: Poppins;
+}
+
+a:hover {
+  color: #c850c0;
+}
